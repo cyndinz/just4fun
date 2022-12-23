@@ -1,4 +1,4 @@
-How to Keep Status Available and Green Always on Microsoft Teams 
+<h1>How to Keep Status Available and Green Always on Microsoft Teams</h1>
 
 1. Right-click on your desktop, hover up to new, and choose “Text Document“.
 2. Notepad will now be up, simply copy the Virtual Basic script (VBS) below and paste it into your notepad.
