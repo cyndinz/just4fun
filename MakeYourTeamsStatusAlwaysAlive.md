@@ -1,7 +1,7 @@
 <h1>How to Keep Status Always Available and Green on Microsoft Teams</h1>
 
-1. Right-click on your desktop, hover up to new, and choose “Text Document“.
-2. Notepad will now be up, simply copy the Virtual Basic script (VBS) below and paste it into your notepad.
+1. Open run dialog by pressing win + R keys
+2. Run your Notepad then simply copy the Virtual Basic script (VBS) below and paste it into your notepad.
 
 ```
 Set objShell = CreateObject("WScript.Shell")
@@ -34,14 +34,12 @@ Wscript.Quit 0
 ```
 3. Once done, click on File and then on “Save File as“.
 
-4. Now Give the file name as Deactivate Sleep mode.vbs and click on Save.
+4. Now Give the file name such as DeactivateSleepMode.vbs and click on Save.
 
 5. Close the notepad and come back to your desktop.
 
 6. You will now see a VBS Script file on the desktop that you just created with an S symbol.
 
-7. Double click on it to open and type the minutes till when you want the Status as Available.
+7. Double click on it to open and type the minutes till when you want the Status as Available. For instance, if you want to show your Microsoft Teams Status to Available for the next 10 hours then type 600 and then click on ok.
 
-8. So if you want to show your Microsoft Teams Status to Available for the next 10 hours then type 600 and then click on ok.
-
-So now you are all done, leave your computer for again 15 minutes and check back the status.
+Now you are good to go being alive awaken all the time ;)
