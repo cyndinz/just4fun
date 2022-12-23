@@ -3,7 +3,7 @@ How to Keep Status Available and Green Always on Microsoft Teams
 1. Right-click on your desktop, hover up to new, and choose “Text Document“.
 2. Notepad will now be up, simply copy the Virtual Basic script (VBS) below and paste it into your notepad.
 
-<br>
+```
 Set objShell = CreateObject("WScript.Shell")
 lngMinutes = InputBox("How long you want to keep your system awake?" & Replace(Space(5), " ", vbNewLine) & "Enter minutes:", "Awake Duration") 'we are replacing 5 spaces with new lines
 If lngMinutes = vbEmpty Then 'If the user opts to cancel the process
@@ -31,8 +31,7 @@ End If
 
 Set objShell = Nothing
 Wscript.Quit 0
-<br>
-
+```
 3. Once done, click on File and then on “Save File as“.
 
 4. Now Give the file name as Deactivate Sleep mode.vbs and click on Save.
