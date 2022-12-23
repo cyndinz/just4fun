@@ -1,5 +1,5 @@
-<h2>In file "MakeYourTeamsStatusAlwaysAlive.md", the script works but how to stop it before it reaches the execution time you have given in input? Follow these key steps: 
-</h2>
+In file "MakeYourTeamsStatusAlwaysAlive.md", the script works but how to stop it before it reaches the execution time you have given in input? Follow these key steps: 
+
 1) Open Task Manager.
 2) In the "Process" tab you should find a process named "Microsoft Windows Based Script Host"... this is probably the process that is executing your VBS Script.
 To be sure, or if you have more than one process named "Microsoft Windows Based Script Host", you can do this:
